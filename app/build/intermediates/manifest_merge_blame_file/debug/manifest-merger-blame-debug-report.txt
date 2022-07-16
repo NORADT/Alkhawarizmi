@@ -1,0 +1,107 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="net.com.alkhawarizmi"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="23"
+8-->E:\Android\Freelance\Tamer\Source\SubProjects\Alkhawarizmi\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="32" />
+9-->E:\Android\Freelance\Tamer\Source\SubProjects\Alkhawarizmi\app\src\main\AndroidManifest.xml
+10
+11    <application
+11-->E:\Android\Freelance\Tamer\Source\SubProjects\Alkhawarizmi\app\src\main\AndroidManifest.xml:6:5-61:19
+12        android:allowBackup="true"
+12-->E:\Android\Freelance\Tamer\Source\SubProjects\Alkhawarizmi\app\src\main\AndroidManifest.xml:7:9-35
+13        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+13-->[androidx.core:core:1.5.0] C:\Users\Moharksh\.gradle\caches\transforms-3\4cb2d3ae910a25e4d3b75b6b0d8d1b11\transformed\core-1.5.0\AndroidManifest.xml:24:18-86
+14        android:dataExtractionRules="@xml/data_extraction_rules"
+14-->E:\Android\Freelance\Tamer\Source\SubProjects\Alkhawarizmi\app\src\main\AndroidManifest.xml:8:9-65
+15        android:debuggable="true"
+16        android:extractNativeLibs="false"
+17        android:fullBackupContent="@xml/backup_rules"
+17-->E:\Android\Freelance\Tamer\Source\SubProjects\Alkhawarizmi\app\src\main\AndroidManifest.xml:9:9-54
+18        android:icon="@mipmap/ic_launcher"
+18-->E:\Android\Freelance\Tamer\Source\SubProjects\Alkhawarizmi\app\src\main\AndroidManifest.xml:10:9-43
+19        android:label="@string/app_name"
+19-->E:\Android\Freelance\Tamer\Source\SubProjects\Alkhawarizmi\app\src\main\AndroidManifest.xml:11:9-41
+20        android:roundIcon="@mipmap/ic_launcher_round"
+20-->E:\Android\Freelance\Tamer\Source\SubProjects\Alkhawarizmi\app\src\main\AndroidManifest.xml:12:9-54
+21        android:supportsRtl="true"
+21-->E:\Android\Freelance\Tamer\Source\SubProjects\Alkhawarizmi\app\src\main\AndroidManifest.xml:13:9-35
+22        android:testOnly="true"
+23        android:theme="@style/Theme.Alkhawarizmi" >
+23-->E:\Android\Freelance\Tamer\Source\SubProjects\Alkhawarizmi\app\src\main\AndroidManifest.xml:14:9-50
+24        <activity
+24-->E:\Android\Freelance\Tamer\Source\SubProjects\Alkhawarizmi\app\src\main\AndroidManifest.xml:17:9-27:20
+25            android:name="net.com.alkhawarizmi.login.SplashActivity"
+25-->E:\Android\Freelance\Tamer\Source\SubProjects\Alkhawarizmi\app\src\main\AndroidManifest.xml:18:13-49
+26            android:exported="true"
+26-->E:\Android\Freelance\Tamer\Source\SubProjects\Alkhawarizmi\app\src\main\AndroidManifest.xml:21:13-36
+27            android:screenOrientation="portrait"
+27-->E:\Android\Freelance\Tamer\Source\SubProjects\Alkhawarizmi\app\src\main\AndroidManifest.xml:19:13-49
+28            android:windowSoftInputMode="adjustPan" >
+28-->E:\Android\Freelance\Tamer\Source\SubProjects\Alkhawarizmi\app\src\main\AndroidManifest.xml:20:13-52
+29            <intent-filter>
+29-->E:\Android\Freelance\Tamer\Source\SubProjects\Alkhawarizmi\app\src\main\AndroidManifest.xml:22:13-26:29
+30                <action android:name="android.intent.action.MAIN" />
+30-->E:\Android\Freelance\Tamer\Source\SubProjects\Alkhawarizmi\app\src\main\AndroidManifest.xml:23:17-69
+30-->E:\Android\Freelance\Tamer\Source\SubProjects\Alkhawarizmi\app\src\main\AndroidManifest.xml:23:25-66
+31
+32                <category android:name="android.intent.category.LAUNCHER" />
+32-->E:\Android\Freelance\Tamer\Source\SubProjects\Alkhawarizmi\app\src\main\AndroidManifest.xml:25:17-77
+32-->E:\Android\Freelance\Tamer\Source\SubProjects\Alkhawarizmi\app\src\main\AndroidManifest.xml:25:27-74
+33            </intent-filter>
+34        </activity>
+35        <activity
+35-->E:\Android\Freelance\Tamer\Source\SubProjects\Alkhawarizmi\app\src\main\AndroidManifest.xml:29:9-31:52
+36            android:name="net.com.alkhawarizmi.login.LoginActivity"
+36-->E:\Android\Freelance\Tamer\Source\SubProjects\Alkhawarizmi\app\src\main\AndroidManifest.xml:30:13-48
+37            android:screenOrientation="portrait" />
+37-->E:\Android\Freelance\Tamer\Source\SubProjects\Alkhawarizmi\app\src\main\AndroidManifest.xml:31:13-49
+38        <activity
+38-->E:\Android\Freelance\Tamer\Source\SubProjects\Alkhawarizmi\app\src\main\AndroidManifest.xml:33:9-35:52
+39            android:name="net.com.alkhawarizmi.login.RegisterActivity"
+39-->E:\Android\Freelance\Tamer\Source\SubProjects\Alkhawarizmi\app\src\main\AndroidManifest.xml:34:13-51
+40            android:screenOrientation="portrait" />
+40-->E:\Android\Freelance\Tamer\Source\SubProjects\Alkhawarizmi\app\src\main\AndroidManifest.xml:35:13-49
+41        <activity
+41-->E:\Android\Freelance\Tamer\Source\SubProjects\Alkhawarizmi\app\src\main\AndroidManifest.xml:37:9-39:52
+42            android:name="net.com.alkhawarizmi.HomeActivity"
+42-->E:\Android\Freelance\Tamer\Source\SubProjects\Alkhawarizmi\app\src\main\AndroidManifest.xml:38:13-41
+43            android:screenOrientation="portrait" />
+43-->E:\Android\Freelance\Tamer\Source\SubProjects\Alkhawarizmi\app\src\main\AndroidManifest.xml:39:13-49
+44        <activity
+44-->E:\Android\Freelance\Tamer\Source\SubProjects\Alkhawarizmi\app\src\main\AndroidManifest.xml:41:9-43:52
+45            android:name="net.com.alkhawarizmi.list.AdsActivity"
+45-->E:\Android\Freelance\Tamer\Source\SubProjects\Alkhawarizmi\app\src\main\AndroidManifest.xml:42:13-45
+46            android:screenOrientation="portrait" />
+46-->E:\Android\Freelance\Tamer\Source\SubProjects\Alkhawarizmi\app\src\main\AndroidManifest.xml:43:13-49
+47        <activity
+47-->E:\Android\Freelance\Tamer\Source\SubProjects\Alkhawarizmi\app\src\main\AndroidManifest.xml:45:9-47:52
+48            android:name="net.com.alkhawarizmi.list.CoursesActivity"
+48-->E:\Android\Freelance\Tamer\Source\SubProjects\Alkhawarizmi\app\src\main\AndroidManifest.xml:46:13-49
+49            android:screenOrientation="portrait" />
+49-->E:\Android\Freelance\Tamer\Source\SubProjects\Alkhawarizmi\app\src\main\AndroidManifest.xml:47:13-49
+50        <activity
+50-->E:\Android\Freelance\Tamer\Source\SubProjects\Alkhawarizmi\app\src\main\AndroidManifest.xml:49:9-51:52
+51            android:name="net.com.alkhawarizmi.list.CoursesListActivity"
+51-->E:\Android\Freelance\Tamer\Source\SubProjects\Alkhawarizmi\app\src\main\AndroidManifest.xml:50:13-53
+52            android:screenOrientation="portrait" />
+52-->E:\Android\Freelance\Tamer\Source\SubProjects\Alkhawarizmi\app\src\main\AndroidManifest.xml:51:13-49
+53        <activity
+53-->E:\Android\Freelance\Tamer\Source\SubProjects\Alkhawarizmi\app\src\main\AndroidManifest.xml:53:9-55:52
+54            android:name="net.com.alkhawarizmi.AboutActivity"
+54-->E:\Android\Freelance\Tamer\Source\SubProjects\Alkhawarizmi\app\src\main\AndroidManifest.xml:54:13-42
+55            android:screenOrientation="portrait" />
+55-->E:\Android\Freelance\Tamer\Source\SubProjects\Alkhawarizmi\app\src\main\AndroidManifest.xml:55:13-49
+56        <activity
+56-->E:\Android\Freelance\Tamer\Source\SubProjects\Alkhawarizmi\app\src\main\AndroidManifest.xml:57:9-59:52
+57            android:name="net.com.alkhawarizmi.ContactActivity"
+57-->E:\Android\Freelance\Tamer\Source\SubProjects\Alkhawarizmi\app\src\main\AndroidManifest.xml:58:13-44
+58            android:screenOrientation="portrait" />
+58-->E:\Android\Freelance\Tamer\Source\SubProjects\Alkhawarizmi\app\src\main\AndroidManifest.xml:59:13-49
+59    </application>
+60
+61</manifest>
