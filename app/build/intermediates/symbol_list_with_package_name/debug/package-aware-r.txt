@@ -1832,11 +1832,13 @@ id barrier
 id baseline
 id beginOnFirstDraw
 id beginning
+id bill
 id blocking
 id bottom
 id bounce
 id buttonPanel
 id cancel_button
+id cash
 id category
 id center
 id center_horizontal
@@ -1872,6 +1874,7 @@ id courses
 id custom
 id customPanel
 id cut
+id cvvInput
 id date
 id date_picker_actions
 id decelerate
@@ -1939,6 +1942,7 @@ id homeAsUp
 id honorRequest
 id icon
 id icon_group
+id id
 id ifRoom
 id ignore
 id ignoreRequest
@@ -2045,6 +2049,7 @@ id password
 id password_toggle
 id path
 id pathRelative
+id payment
 id pc
 id peekHeight
 id percent
@@ -2052,10 +2057,12 @@ id pin
 id position
 id postLayout
 id price
+id profile
 id prog
 id progress_circular
 id progress_horizontal
 id radio
+id radiogroup
 id ratio
 id rectangles
 id recyclerView
@@ -2183,6 +2190,9 @@ id view_offset_helper
 id view_tree_lifecycle_owner
 id view_tree_saved_state_registry_owner
 id view_tree_view_model_store_owner
+id visa
+id visaInput
+id visaLayout
 id visible
 id visible_removing_fragment_view_tag
 id withText
@@ -2264,6 +2274,8 @@ layout activity_course_list
 layout activity_courses
 layout activity_home
 layout activity_login
+layout activity_payment_screen
+layout activity_prflle
 layout activity_registeration
 layout activity_splash
 layout ad_item
@@ -2352,7 +2364,6 @@ layout text_view_with_line_height_from_style
 layout text_view_with_theme_line_height
 layout text_view_without_line_height
 mipmap ic_launcher
-mipmap ic_launcher_round
 plurals mtrl_badge_content_description
 string abc_action_bar_home_description
 string abc_action_bar_up_description

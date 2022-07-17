@@ -33,6 +33,9 @@ public class HomeActivity extends AppCompatActivity implements View.OnClickListe
 
         CardView contact = findViewById(R.id.contact);
         contact.setOnClickListener(this::onClick);
+
+        CardView profile = findViewById(R.id.profile);
+        profile.setOnClickListener(this::onClick);
     }
 
     @Override
@@ -59,6 +62,10 @@ public class HomeActivity extends AppCompatActivity implements View.OnClickListe
 
             case R.id.contact:
                 startActivity(new Intent(HomeActivity.this, ContactActivity.class));
+                break;
+
+            case R.id.profile:
+                startActivity(new Intent(HomeActivity.this, ProfileActivity.class));
                 break;
         }
 

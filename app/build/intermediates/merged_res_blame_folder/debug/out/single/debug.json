@@ -8,6 +8,10 @@
         "source": "C:\\Users\\Moharksh\\.gradle\\daemon\\7.3.3\\net.com.alkhawarizmi.app-main-21:\\layout\\activity_splash.xml"
     },
     {
+        "merged": "C:\\Users\\Moharksh\\.gradle\\daemon\\7.3.3\\net.com.alkhawarizmi.app-merged_res-19:\\layout_activity_payment_screen.xml.flat",
+        "source": "C:\\Users\\Moharksh\\.gradle\\daemon\\7.3.3\\net.com.alkhawarizmi.app-main-21:\\layout\\activity_payment_screen.xml"
+    },
+    {
         "merged": "C:\\Users\\Moharksh\\.gradle\\daemon\\7.3.3\\net.com.alkhawarizmi.app-merged_res-19:\\layout_activity_contact.xml.flat",
         "source": "C:\\Users\\Moharksh\\.gradle\\daemon\\7.3.3\\net.com.alkhawarizmi.app-main-21:\\layout\\activity_contact.xml"
     },
@@ -40,6 +44,10 @@
         "source": "C:\\Users\\Moharksh\\.gradle\\daemon\\7.3.3\\net.com.alkhawarizmi.app-main-21:\\layout\\activity_registeration.xml"
     },
     {
+        "merged": "net.com.alkhawarizmi.app-merged_res-19:/mipmap-xxxhdpi_ic_launcher.jpg.flat",
+        "source": "net.com.alkhawarizmi.app-main-21:/mipmap-xxxhdpi/ic_launcher.jpg"
+    },
+    {
         "merged": "C:\\Users\\Moharksh\\.gradle\\daemon\\7.3.3\\net.com.alkhawarizmi.app-merged_res-19:\\mipmap-xxxhdpi_ic_launcher.webp.flat",
         "source": "C:\\Users\\Moharksh\\.gradle\\daemon\\7.3.3\\net.com.alkhawarizmi.app-main-21:\\mipmap-xxxhdpi\\ic_launcher.webp"
     },
@@ -56,6 +64,10 @@
         "source": "C:\\Users\\Moharksh\\.gradle\\daemon\\7.3.3\\net.com.alkhawarizmi.app-main-21:\\drawable\\about.jpg"
     },
     {
+        "merged": "net.com.alkhawarizmi.app-merged_res-19:/mipmap-xhdpi_ic_launcher.jpg.flat",
+        "source": "net.com.alkhawarizmi.app-main-21:/mipmap-xhdpi/ic_launcher.jpg"
+    },
+    {
         "merged": "C:\\Users\\Moharksh\\.gradle\\daemon\\7.3.3\\net.com.alkhawarizmi.app-merged_res-19:\\mipmap-xxxhdpi_ic_launcher_round.webp.flat",
         "source": "C:\\Users\\Moharksh\\.gradle\\daemon\\7.3.3\\net.com.alkhawarizmi.app-main-21:\\mipmap-xxxhdpi\\ic_launcher_round.webp"
     },
@@ -66,6 +78,10 @@
     {
         "merged": "C:\\Users\\Moharksh\\.gradle\\daemon\\7.3.3\\net.com.alkhawarizmi.app-merged_res-19:\\xml_backup_rules.xml.flat",
         "source": "C:\\Users\\Moharksh\\.gradle\\daemon\\7.3.3\\net.com.alkhawarizmi.app-main-21:\\xml\\backup_rules.xml"
+    },
+    {
+        "merged": "net.com.alkhawarizmi.app-merged_res-19:/mipmap-hdpi_ic_launcher.jpg.flat",
+        "source": "net.com.alkhawarizmi.app-main-21:/mipmap-hdpi/ic_launcher.jpg"
     },
     {
         "merged": "C:\\Users\\Moharksh\\.gradle\\daemon\\7.3.3\\net.com.alkhawarizmi.app-merged_res-19:\\mipmap-mdpi_ic_launcher_round.webp.flat",
@@ -100,8 +116,16 @@
         "source": "C:\\Users\\Moharksh\\.gradle\\daemon\\7.3.3\\net.com.alkhawarizmi.app-main-21:\\drawable\\cour5.jpg"
     },
     {
+        "merged": "C:\\Users\\Moharksh\\.gradle\\daemon\\7.3.3\\net.com.alkhawarizmi.app-merged_res-19:\\drawable_ic_launcher_background.jpeg.flat",
+        "source": "C:\\Users\\Moharksh\\.gradle\\daemon\\7.3.3\\net.com.alkhawarizmi.app-main-21:\\drawable\\ic_launcher_background.jpeg"
+    },
+    {
         "merged": "C:\\Users\\Moharksh\\.gradle\\daemon\\7.3.3\\net.com.alkhawarizmi.app-merged_res-19:\\layout_ad_item.xml.flat",
         "source": "C:\\Users\\Moharksh\\.gradle\\daemon\\7.3.3\\net.com.alkhawarizmi.app-main-21:\\layout\\ad_item.xml"
+    },
+    {
+        "merged": "net.com.alkhawarizmi.app-merged_res-19:/mipmap-mdpi_ic_launcher.jpg.flat",
+        "source": "net.com.alkhawarizmi.app-main-21:/mipmap-mdpi/ic_launcher.jpg"
     },
     {
         "merged": "C:\\Users\\Moharksh\\.gradle\\daemon\\7.3.3\\net.com.alkhawarizmi.app-merged_res-19:\\mipmap-xhdpi_ic_launcher.webp.flat",
@@ -142,6 +166,14 @@
     {
         "merged": "C:\\Users\\Moharksh\\.gradle\\daemon\\7.3.3\\net.com.alkhawarizmi.app-merged_res-19:\\drawable_about2.jpg.flat",
         "source": "C:\\Users\\Moharksh\\.gradle\\daemon\\7.3.3\\net.com.alkhawarizmi.app-main-21:\\drawable\\about2.jpg"
+    },
+    {
+        "merged": "C:\\Users\\Moharksh\\.gradle\\daemon\\7.3.3\\net.com.alkhawarizmi.app-merged_res-19:\\layout_activity_prflle.xml.flat",
+        "source": "C:\\Users\\Moharksh\\.gradle\\daemon\\7.3.3\\net.com.alkhawarizmi.app-main-21:\\layout\\activity_prflle.xml"
+    },
+    {
+        "merged": "net.com.alkhawarizmi.app-merged_res-19:/mipmap-xxhdpi_ic_launcher.jpg.flat",
+        "source": "net.com.alkhawarizmi.app-main-21:/mipmap-xxhdpi/ic_launcher.jpg"
     },
     {
         "merged": "C:\\Users\\Moharksh\\.gradle\\daemon\\7.3.3\\net.com.alkhawarizmi.app-merged_res-19:\\drawable_contact.jpg.flat",

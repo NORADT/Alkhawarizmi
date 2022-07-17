@@ -7,44 +7,27 @@ import android.database.sqlite.SQLiteOpenHelper;
 public class SqlLiteHandler extends SQLiteOpenHelper {
 
     public static final String id = "id";
-    public static final String fName = "firstname";
-    public static final String lName = "lastname";
+    public static final String name = "name";
     public static final String email = "email";
     public static final String password = "password";
-    public static final String mobile = "mobile";
-    public static final String type = "type";
-    public static final String active = "active";
 
     public static final String user_id = "user_id";
-    public static final String user_name = "user_name";
-    public static final String speciality = "speciality";
-    public static final String problem_msg = "problem_msg";
-    public static final String expert_id = "expert_id";
-    public static final String expert_name = "expert_name";
-    public static final String problem_solution = "problem_solution";
+    public static final String course_id = "course_id";
 
     public static final String users = "users";
-    public static final String problems = "problems";
+    public static final String reservations = "reservations";
 
     String createUsersStat = "CREATE TABLE " + users + " ("
             + id + " INTEGER PRIMARY KEY AUTOINCREMENT , "
-            + fName + " TEXT ,"
-            + lName + " TEXT ,"
+            + name + " TEXT ,"
             + email + " TEXT ,"
-            + password + " TEXT ,"
-            + mobile + " TEXT ,"
-            + speciality + " TEXT ,"
-            + active + " INTEGER ,"
-            + type + " INTEGER );";
+            + password + " INTEGER );";
 
-    String createProblemStat = "CREATE TABLE " + problems + " ("
+    String createReservationsStat = "CREATE TABLE " + reservations + " ("
             + id + " INTEGER PRIMARY KEY AUTOINCREMENT , "
-            + user_id + " INTEGER ,"
-            + user_name + " TEXT ,"
-            + problem_msg + " TEXT ,"
-            + expert_id + " INTEGER ,"
-            + expert_name + " TEXT ,"
-            + problem_solution + " TEXT );";
+            + user_id + " TEXT ,"
+            + course_id + " TEXT );";
+
 
 
     public SqlLiteHandler(Context context) {
@@ -54,13 +37,13 @@ public class SqlLiteHandler extends SQLiteOpenHelper {
     @Override
     public void onCreate(SQLiteDatabase sqLiteDatabase) {
         sqLiteDatabase.execSQL(createUsersStat);
-        sqLiteDatabase.execSQL(createProblemStat);
+        sqLiteDatabase.execSQL(createReservationsStat);
     }
 
     @Override
     public void onUpgrade(SQLiteDatabase sqLiteDatabase, int oldVersion, int newVersion) {
         sqLiteDatabase.execSQL("DROP TABLE IF EXISTS " + createUsersStat);
-        sqLiteDatabase.execSQL("DROP TABLE IF EXISTS " + createProblemStat);
+        sqLiteDatabase.execSQL("DROP TABLE IF EXISTS " + createReservationsStat);
 
         onCreate(sqLiteDatabase);
     }

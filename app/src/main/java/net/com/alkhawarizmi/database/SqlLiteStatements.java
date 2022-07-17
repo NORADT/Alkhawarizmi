@@ -7,6 +7,10 @@ import android.database.SQLException;
 import android.database.sqlite.SQLiteDatabase;
 
 import net.com.alkhawarizmi.models.AppUser;
+import net.com.alkhawarizmi.models.Reservation;
+
+import java.util.ArrayList;
+import java.util.List;
 
 public class SqlLiteStatements {
 
@@ -52,7 +56,7 @@ public class SqlLiteStatements {
         openDatabase();
         ContentValues cv = new ContentValues();
 
-        cv.put(SqlLiteHandler.fName, user.getName());
+        cv.put(SqlLiteHandler.name, user.getName());
         cv.put(SqlLiteHandler.password, user.getPassword());
         cv.put(SqlLiteHandler.email, user.getEmail());
 
@@ -85,5 +89,66 @@ public class SqlLiteStatements {
         closeDatabase();
         return user;
     }
+
+    public boolean courseValidation(String userId, String courseId) {
+        openDatabase();
+        boolean found = false;
+
+        String statement = "SELECT " + SqlLiteHandler.id + " FROM " + SqlLiteHandler.reservations
+                + " WHERE " + SqlLiteHandler.user_id + " = '" + userId + "'"
+                + " AND " + SqlLiteHandler.course_id + " = '" + courseId + "'";
+
+        Cursor cursor = sqLiteDatabase.rawQuery(statement, null);
+
+        if (cursor.moveToFirst()) {
+            found = true;
+        }
+
+        cursor.close();
+        closeDatabase();
+        return found;
+    }
+
+    public Reservation newReservation(Reservation reservation) {
+        openDatabase();
+        ContentValues cv = new ContentValues();
+
+        cv.put(SqlLiteHandler.user_id, reservation.getUserId());
+        cv.put(SqlLiteHandler.course_id, reservation.getCourseId());
+
+        int id = (int) sqLiteDatabase.insert(SqlLiteHandler.reservations, null, cv);
+        reservation.setId(id);
+
+        closeDatabase();
+        return reservation;
+    }
+
+    public List<Reservation> getReservationList(int userId) {
+        openDatabase();
+        List<Reservation> reservations = new ArrayList<>();
+
+        String statement = "SELECT * FROM " + SqlLiteHandler.reservations
+                + " WHERE " + SqlLiteHandler.user_id + " = " + userId;
+
+        Cursor cursor = sqLiteDatabase.rawQuery(statement, null);
+
+        if (cursor.moveToFirst()) {
+            do {
+                Reservation reservation = new Reservation();
+
+                reservation.setId(cursor.getInt(0));
+                reservation.setUserId(cursor.getString(1));
+                reservation.setCourseId(cursor.getString(2));
+
+                reservations.add(reservation);
+
+            } while (cursor.moveToNext());
+        }
+
+        cursor.close();
+        closeDatabase();
+        return reservations;
+    }
+
 
 }
