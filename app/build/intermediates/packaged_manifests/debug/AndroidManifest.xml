@@ -19,7 +19,6 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher"
         android:supportsRtl="true"
-        android:testOnly="true"
         android:theme="@style/Theme.Alkhawarizmi" >
         <activity
             android:name="net.com.alkhawarizmi.login.SplashActivity"

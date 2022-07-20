@@ -1677,10 +1677,17 @@ drawable abc_textfield_search_default_mtrl_alpha
 drawable abc_textfield_search_material
 drawable abc_vector_test
 drawable about1
+drawable about1_tran
 drawable about2
+drawable about2_tran
 drawable ads1
 drawable avd_hide_password
 drawable avd_show_password
+drawable bg1
+drawable bg2
+drawable bg3
+drawable bg_home_layout
+drawable bg_round_layout
 drawable bg_selected_layout
 drawable bg_white_layout
 drawable btn_checkbox_checked_mtrl
@@ -1692,6 +1699,7 @@ drawable btn_radio_off_to_on_mtrl_animation
 drawable btn_radio_on_mtrl
 drawable btn_radio_on_to_off_mtrl_animation
 drawable contact2
+drawable contact2_tran
 drawable cour1
 drawable cour2
 drawable cour3
@@ -1703,9 +1711,16 @@ drawable design_ic_visibility
 drawable design_ic_visibility_off
 drawable design_password_eye
 drawable design_snackbar_background
+drawable ic_baseline_call_24
+drawable ic_baseline_edit_24
+drawable ic_baseline_event_note_24
+drawable ic_baseline_exit_to_app_24
+drawable ic_baseline_location_on_24
+drawable ic_baseline_person_24
 drawable ic_clock_black_24dp
 drawable ic_keyboard_black_24dp
 drawable ic_launcher_background
+drawable ic_launcher_backgtran
 drawable ic_mtrl_checked_circle
 drawable ic_mtrl_chip_checked_black
 drawable ic_mtrl_chip_checked_circle
@@ -1814,7 +1829,6 @@ id action_text
 id actions
 id activity_chooser_view_content
 id add
-id ads
 id alertTitle
 id aligned
 id all
@@ -1882,6 +1896,7 @@ id decelerateAndComplete
 id decor_content_parent
 id default_activity_button
 id deltaRelative
+id desc
 id design_bottom_sheet
 id design_menu_item_action_area
 id design_menu_item_action_area_stub
@@ -2295,6 +2310,7 @@ layout design_navigation_menu
 layout design_navigation_menu_item
 layout design_text_input_end_icon
 layout design_text_input_start_icon
+layout home_ad_item
 layout material_chip_input_combo
 layout material_clock_display
 layout material_clock_display_divider

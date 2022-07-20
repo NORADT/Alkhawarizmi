@@ -3,6 +3,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/bg2"
     android:orientation="vertical">
 
     <LinearLayout
@@ -33,74 +34,93 @@
             android:layout_height="200dp"
             android:layout_gravity="center"
             android:layout_margin="10dp"
-            android:src="@drawable/ic_launcher_background" />
+            android:src="@drawable/ic_launcher_backgtran" />
 
-        <EditText
-            android:id="@+id/name"
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:id="@+id/name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:hint="الإسم الثلاثي"
+                android:inputType="text"
+                android:maxLines="1"
+                android:minLines="1"
+                android:padding="10dp"
+                android:singleLine="true"
+                android:textColor="@color/primary"
+                android:textDirection="rtl"
+                android:textSize="15sp" />
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="10dp"
-            android:background="@drawable/bg_white_layout"
-            android:hint="الإسم بالكامل"
-            android:inputType="text"
-            android:maxLines="1"
-            android:minLines="1"
-            android:textDirection="rtl"
-            android:padding="10dp"
-            android:singleLine="true"
-            android:textColor="@color/black"
-            android:textSize="15sp" />
+            android:layout_marginTop="10dp">
 
-        <EditText
-            android:id="@+id/email"
+            <EditText
+                android:id="@+id/email"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:hint="الإيميل"
+                android:inputType="textEmailAddress"
+                android:maxLines="1"
+                android:minLines="1"
+                android:padding="10dp"
+                android:singleLine="true"
+                android:textColor="@color/primary"
+                android:textDirection="rtl"
+                android:textSize="15sp" />
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="10dp"
-            android:background="@drawable/bg_white_layout"
-            android:hint="الإيميل"
-            android:inputType="textEmailAddress"
-            android:maxLines="1"
-            android:minLines="1"
-            android:textDirection="rtl"
-            android:padding="10dp"
-            android:singleLine="true"
-            android:textColor="@color/black"
-            android:textSize="15sp" />
+            android:layout_marginTop="10dp">
 
+            <EditText
+                android:id="@+id/password"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:gravity="right"
+                android:hint="كلمة المرور"
+                android:inputType="textPassword"
+                android:maxLines="1"
+                android:minLines="1"
+                android:padding="10dp"
+                android:singleLine="true"
+                android:textColor="@color/primary"
+                android:textDirection="rtl"
+                android:textSize="15sp" />
+        </androidx.cardview.widget.CardView>
 
-        <EditText
-            android:id="@+id/password"
+        <androidx.cardview.widget.CardView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="10dp"
-            android:background="@drawable/bg_white_layout"
-            android:hint="كلمة المرور"
-            android:inputType="textPassword"
-            android:maxLines="1"
-            android:textDirection="rtl"
-            android:minLines="1"
-            android:gravity="right"
-            android:padding="10dp"
-            android:singleLine="true"
-            android:textColor="@color/black"
-            android:textSize="15sp" />
+            android:layout_marginTop="10dp">
 
-        <EditText
-            android:id="@+id/confirmPassword"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="10dp"
-            android:background="@drawable/bg_white_layout"
-            android:hint="تاكيد كلمة المرور"
-            android:inputType="textPassword"
-            android:maxLines="1"
-            android:textDirection="rtl"
-            android:minLines="1"
-            android:gravity="right"
-            android:padding="10dp"
-            android:singleLine="true"
-            android:textColor="@color/black"
-            android:textSize="15sp" />
+            <EditText
+                android:id="@+id/confirmPassword"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:gravity="right"
+                android:hint="تاكيد كلمة المرور"
+                android:inputType="textPassword"
+                android:maxLines="1"
+                android:minLines="1"
+                android:padding="10dp"
+                android:singleLine="true"
+                android:textColor="@color/primary"
+                android:textDirection="rtl"
+                android:textSize="15sp" />
+        </androidx.cardview.widget.CardView>
+
 
         <Button
             android:id="@+id/register"
@@ -108,11 +128,51 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:layout_marginTop="15dp"
+            android:paddingStart="10dp"
+            android:paddingEnd="10dp"
             android:padding="5dp"
+            android:background="@drawable/bg_round_layout"
             android:text="إنشاء الحساب"
             android:textColor="@color/white"
-            android:textSize="20sp"
+            android:textSize="18sp"
             app:backgroundTint="@color/secondary" />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:weightSum="11"
+            android:layout_marginTop="10dp"
+            android:layoutDirection="rtl"
+            android:orientation="horizontal">
+
+            <View
+                android:layout_width="0dp"
+                android:layout_weight="5"
+                android:layout_height="1dp"
+                android:layout_gravity="center"
+                android:background="@android:color/darker_gray"/>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="أو"
+                android:layout_gravity="center"
+                android:textColor="@color/primary"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <View
+                android:layout_width="0dp"
+                android:layout_weight="5"
+                android:layout_height="1dp"
+                android:layout_gravity="center"
+                android:background="@android:color/darker_gray"/>
+
+
+        </LinearLayout>
 
         <TextView
             android:id="@+id/haveAcc"
@@ -120,7 +180,7 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:padding="5dp"
-            android:text="الذهاب الي تسجيل الدخول"
+            android:text="تسجيل الدخول"
             android:textColor="@color/primary"
             android:textSize="15sp" />
     </LinearLayout>
