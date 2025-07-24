@@ -3,16 +3,26 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Android/Freelance/Tamer/Source/SubProjects/Alkhawarizmi/app/src/main/res/drawable/bg_home_layout.xml" value="0.115" />
+        <entry key="..\:/Android/Freelance/Tamer/Source/SubProjects/Alkhawarizmi/app/src/main/res/drawable/bg_round_layout.xml" value="0.115" />
         <entry key="..\:/Android/Freelance/Tamer/Source/SubProjects/Alkhawarizmi/app/src/main/res/drawable/bg_selected_layout.xml" value="0.115" />
+        <entry key="..\:/Android/Freelance/Tamer/Source/SubProjects/Alkhawarizmi/app/src/main/res/drawable/ic_baseline_call_24.xml" value="0.115" />
+        <entry key="..\:/Android/Freelance/Tamer/Source/SubProjects/Alkhawarizmi/app/src/main/res/drawable/ic_baseline_event_note_24.xml" value="0.115" />
+        <entry key="..\:/Android/Freelance/Tamer/Source/SubProjects/Alkhawarizmi/app/src/main/res/drawable/ic_baseline_location_on_24.xml" value="0.115" />
+        <entry key="..\:/Android/Freelance/Tamer/Source/SubProjects/Alkhawarizmi/app/src/main/res/drawable/ic_baseline_person_24.xml" value="0.115" />
         <entry key="..\:/Android/Freelance/Tamer/Source/SubProjects/Alkhawarizmi/app/src/main/res/layout/activity_about.xml" value="0.22" />
         <entry key="..\:/Android/Freelance/Tamer/Source/SubProjects/Alkhawarizmi/app/src/main/res/layout/activity_ads.xml" value="0.28888888888888886" />
-        <entry key="..\:/Android/Freelance/Tamer/Source/SubProjects/Alkhawarizmi/app/src/main/res/layout/activity_contact.xml" value="0.28888888888888886" />
+        <entry key="..\:/Android/Freelance/Tamer/Source/SubProjects/Alkhawarizmi/app/src/main/res/layout/activity_contact.xml" value="0.25" />
         <entry key="..\:/Android/Freelance/Tamer/Source/SubProjects/Alkhawarizmi/app/src/main/res/layout/activity_course_list.xml" value="0.28888888888888886" />
         <entry key="..\:/Android/Freelance/Tamer/Source/SubProjects/Alkhawarizmi/app/src/main/res/layout/activity_courses.xml" value="0.28888888888888886" />
-        <entry key="..\:/Android/Freelance/Tamer/Source/SubProjects/Alkhawarizmi/app/src/main/res/layout/activity_home.xml" value="0.28888888888888886" />
-        <entry key="..\:/Android/Freelance/Tamer/Source/SubProjects/Alkhawarizmi/app/src/main/res/layout/activity_login.xml" value="0.1" />
-        <entry key="..\:/Android/Freelance/Tamer/Source/SubProjects/Alkhawarizmi/app/src/main/res/layout/activity_registeration.xml" value="0.1" />
+        <entry key="..\:/Android/Freelance/Tamer/Source/SubProjects/Alkhawarizmi/app/src/main/res/layout/activity_home.xml" value="0.22" />
+        <entry key="..\:/Android/Freelance/Tamer/Source/SubProjects/Alkhawarizmi/app/src/main/res/layout/activity_login.xml" value="0.33" />
+        <entry key="..\:/Android/Freelance/Tamer/Source/SubProjects/Alkhawarizmi/app/src/main/res/layout/activity_payment_screen.xml" value="0.28888888888888886" />
+        <entry key="..\:/Android/Freelance/Tamer/Source/SubProjects/Alkhawarizmi/app/src/main/res/layout/activity_prflle.xml" value="0.25" />
+        <entry key="..\:/Android/Freelance/Tamer/Source/SubProjects/Alkhawarizmi/app/src/main/res/layout/activity_registeration.xml" value="0.25" />
         <entry key="..\:/Android/Freelance/Tamer/Source/SubProjects/Alkhawarizmi/app/src/main/res/layout/activity_splash.xml" value="0.28888888888888886" />
+        <entry key="..\:/Android/Freelance/Tamer/Source/SubProjects/Alkhawarizmi/app/src/main/res/layout/ad_item.xml" value="0.28888888888888886" />
+        <entry key="..\:/Android/Freelance/Tamer/Source/SubProjects/Alkhawarizmi/app/src/main/res/layout/home_ad_item.xml" value="0.28888888888888886" />
         <entry key="..\:/Android/Freelance/Tamer/Source/SubProjects/Alkhawarizmi/app/src/main/res/layout/voluntary_service_item.xml" value="0.28888888888888886" />
       </map>
     </option>
