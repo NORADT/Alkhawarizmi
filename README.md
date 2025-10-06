@@ -16,7 +16,7 @@ To provide an easy-to-use, Arabic-language Android application for students and 
 
 ---
 
-## 🧠 Technologies Used
+## Technologies Used
 
 - **Language**: Java
 - **IDE**: Android Studio
@@ -25,7 +25,7 @@ To provide an easy-to-use, Arabic-language Android application for students and 
 
 ---
 
-## 📦 Installation Guide
+## Installation Guide
 
 1. Clone the repository:
 ```bash
